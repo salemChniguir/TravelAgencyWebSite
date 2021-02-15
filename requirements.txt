@@ -1,0 +1,5 @@
+déplacement des liens facebook et instagram vers le haut de la page 
+changement du couleur noire de l'arrière plan en bas de la page en bleu du logo 
+changement du couleur noire des grands titres en : deepskyblue	#00BFFF	/ rgb(0,191,255) / hsl(195,100%,50%)
+changement de couleur grise du texte en gris foncé ou en noir pour être plus clair 
+une idée : si on peut ajouter un bouton en haut de la page pour jouer un son ; musique relaxente ou son des vagues et oiseaux  
