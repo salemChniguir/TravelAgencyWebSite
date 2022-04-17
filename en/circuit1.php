@@ -58,20 +58,20 @@
             </button>
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="index.html#about" class="nav-link">Who we are?</a></li>
-                    <li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-                    <li class="nav-item"><a href="hotel.html" class="nav-link">Hotels</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.php#about" class="nav-link">About us</a></li>
+                    <li class="nav-item"><a href="destination.php" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a href="hotel.php" class="nav-link">Hotels</a></li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Our tours
+                            Our Trips
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="circuit1.html">Southern Lengend Circuit</a>
-                            <a class="dropdown-item" href="circuit2.html">Northern Lengend Circuit</a>
+                            <a class="dropdown-item" href="circuit1.php">Southern Lengend Trip</a>
+                            <a class="dropdown-item" href="circuit2.php">Northern Lengend Trip</a>
                         </div>
                     </li>
-                    <li class="nav-item cta"><a href="#" class="nav-link">Book now</a></li>
+                    <li class="nav-item cta"><a href="contact.php" class="nav-link">Book now</a></li>
 
                 </ul>
             </div>
@@ -90,10 +90,10 @@
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate pb-5 text-center">
-                    <h1 class="mb-3 bread" style="color: #f9ab30;">Southern Lengend Circuit</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html" style="color: #00BFFF;">Home<i
+                    <h1 class="mb-3 bread" style="color: #f9ab30;">Southern Lengend Trip</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.php" style="color: #00BFFF;">Home<i
                                     class="ion-ios-arrow-forward"></i></a></span> <span style="color: #00BFFF;">Southern
-                            Lengend Circuit<i class="ion-ios-arrow-forward"></i></span></p>
+                            Lengend Trip<i class="ion-ios-arrow-forward"></i></span></p>
 
                 </div>
             </div>
@@ -143,8 +143,8 @@
                         <div class="card-body">
                             <h4 class="card-title" style="color: #f4a72e;">Day 1</h4>
                             <ul>
-                                <li class="card-text">Arrivée et assistance à l’aéroport de Djerba Zarzis.</li>
-                                <li class="card-text"> Installation à Sidi Salem : coucher de soleil.</li>
+                                <li class="card-text">Arrival at the airport of Djerba Zarzis.</li>
+                                <li class="card-text">Installation in Sidi Salem: Enjoying splendid Sunset.</li>
                             </ul>
                         </div>
                     </div>
@@ -169,8 +169,7 @@
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Départ de Djerba via l'oliveraie de Zarzis jusqu'à
-                                                    l'entrée de Tataouine.</p>
+                                                <p class="mb-1">Departure from Djerba to Tataouine via Zarzis’s olive grove.</p>
 
                                                 <small><time>09:00</time></small>
                                             </div>
@@ -178,58 +177,56 @@
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Temps libre dans les dunes.</p>
+                                                <p class="mb-1">Free time in desert dunes.</p>
                                                 <small><time>10:00</time></small>
                                             </div>
                                         </span>
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Route vers le marché traditionnel de Tataouine.</p>
+                                                <p class="mb-1">Heading back to the traditional market in Tataouine.</p>
                                                 <small><time>10:45</time></small>
                                             </div>
                                         </span>
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Route vers Chenini.</p>
+                                                <p class="mb-1">Journey to Chenini.</p>
                                                 <small><time>11:45</time></small>
                                             </div>
                                         </span>
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Installation aux chambres d’hôtes à Chenini.</p>
+                                                <p class="mb-1">Accommodation at guesthouse in Chenini.</p>
                                                 <small><time>12:15</time></small>
                                             </div>
                                         </span>
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Déjeuner sur place.</p>
+                                                <p class="mb-1">Lunch.</p>
                                                 <small><time>13:00</time></small>
                                             </div>
                                         </span>
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Randonné à pieds dans le village berbère de Chenini.
-                                                </p>
+                                                <p class="mb-1">Errands in the Berber village of Chenini.</p>
                                                 <small><time>16:00</time></small>
                                             </div>
                                         </span>
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Temps libre pour admirer la tombée de nuit aux villages
-                                                    des montagnes.</p>
+                                                <p class="mb-1">Free time to enjoy and welcome night in mountaineer villages.</p>
                                                 <small><time>17:00</time></small>
                                             </div>
                                         </span>
                                         <span
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
-                                                <p class="mb-1">Diner et nuit.</p>
+                                                <p class="mb-1">Dinner and night.</p>
                                                 <small><time>19:00</time></small>
                                             </div>
                                         </span>
@@ -320,7 +317,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Départ vers Douiret ; visite du village
+                                                Departure to Douiret; a visit to the village.
                                                 </p>
 
                                                 <small><time>
@@ -332,7 +329,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Départ pour Ksar Ghilaine
+                                                Departure to Ksar Ghilaine.
                                                 </p>
 
                                                 <small><time>
@@ -344,7 +341,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Arrivée au campement installation déjeuner dans la palmeraie
+                                                Arrival at the campsite, installation and lunch at palm grove.
                                                 </p>
 
                                                 <small><time>
@@ -356,8 +353,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Apres midi libre : baignade dans la source tiède, admiration des
-                                                    dunes de sable du grand Erg oriental, coucher de soleil ...
+                                                Free afternoon: bathing in the warm water’s spring, admiring sand dunes of oriental Great Erg and fabulous sunset.
                                                 </p>
 
                                                 <small><time>
@@ -390,7 +386,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Départ en direction de Douz, Kebili, Tozeur
+                                                Departure to Douz, Kebili and Tozeur.
                                                 </p>
 
                                                 <small><time>
@@ -402,7 +398,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Départ en direction de Douz, Kebili, Tozeur
+                                                Pause at chott el Jerid.
                                                 </p>
 
                                                 <small><time>
@@ -414,7 +410,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Déjeuner et promenade dans l’oasis de Tozeur
+                                                Lunch and hike in Tozeur’s oasis.
                                                 </p>
 
                                                 <small><time>
@@ -426,7 +422,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Départ pour les oasis des montagnes
+                                                Departure to mountaineer oasis.
                                                 </p>
 
                                                 <small><time>
@@ -438,7 +434,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    visite de Chebika, Mides et Tamaghza
+                                                Visit to Chebika, Mides and Tamaghza.
                                                 </p>
 
                                                 <small><time>
@@ -450,7 +446,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Installation dîner et nuit à l’hôtel Tamaghza
+                                                Installation, dinner and night at Tamaghza hotel.
                                                 </p>
 
                                                 <small><time>
@@ -568,7 +564,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Départ en direction de Gabes via Gafsa
+                                                Departure to Gabes via Gafsa.
                                                 </p>
 
                                                 <small><time>
@@ -580,7 +576,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    visite du marchée aux épices de « Jara »
+                                                visit of spices’ market « Jara ».
                                                 </p>
 
                                                 <small><time>
@@ -592,7 +588,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    route vers Matmata
+                                                Heading to Matmata.
                                                 </p>
 
                                                 <small><time>
@@ -604,7 +600,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    installation et déjeuner à l’hôtel Diar el Barber ou similaire
+                                                installation and lunch at hotel “Diar el Barber” or similar.
                                                 </p>
 
                                                 <small><time>
@@ -616,7 +612,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    visite de l’une des familles berbères
+                                                visit of Berber family, discover Berber lifestyle and customs.
                                                 </p>
 
                                                 <small><time>
@@ -628,7 +624,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    visite de Tamazret
+                                                visit to Tamazret.
                                                 </p>
 
                                                 <small><time>
@@ -640,7 +636,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Route pour diner et nuit à l’hôtel
+                                                Return to the hotel, dinner and night.
                                                 </p>
 
                                                 <small><time>
@@ -674,7 +670,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Départ de Matmata en direction de Toujane et Medenine
+                                                Departure from Matmata to Toujane and Madanin.
                                                 </p>
 
                                                 <small><time>
@@ -686,7 +682,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Arrêt de commodité sur la route
+                                                Pause half- way for commodities.
                                                 </p>
 
                                                 <small><time>
@@ -698,7 +694,7 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    on prend le bac de Djerba
+                                                Afloat on the ferry of Djerba.
                                                 </p>
 
                                                 <small><time>
@@ -710,12 +706,20 @@
                                             class="list-group-item list-group-item-action flex-column align-items-start">
                                             <div class="d-flex w-100 justify-content-between">
                                                 <p class="mb-1">
-                                                    Installation et déjeuner à la maison d’hôtes
+                                                Installation and lunch in guesthouse
                                                 </p>
 
                                                 <small><time>
                                                         13:00
                                                     </time></small>
+                                            </div>
+                                        </span>
+                                        <span
+                                            class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <p class="mb-1">
+                                                Free afternoon time, dinner and night in the guesthouse.
+                                                </p>
                                             </div>
                                         </span>
 
@@ -781,8 +785,8 @@
                         <div class="card-body">
                             <h4 class="card-title" style="color: #f4a72e;">Day 7</h4>
                             <ul>
-                                <li>Transfert et formalités d'embarquement.</li>
-                                <li>Fin de nos prestations</li>
+                                <li>Transfert to Zarzis airport and boarding procedures.</li>
+                                <li> End of our services</li>
                             </ul>
                         </div>
                     </div>

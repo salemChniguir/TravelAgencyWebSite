@@ -59,20 +59,20 @@
 			
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="index.html#about" class="nav-link">Who we are?</a></li>
-					<li class="nav-item active"><a href="destination.html" class="nav-link">Destinations</a></li>
-					<li class="nav-item"><a href="hotel.html" class="nav-link">Hotels</a></li>
+					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="index.php#about" class="nav-link">About us</a></li>
+					<li class="nav-item active"><a href="destination.php" class="nav-link">Destinations</a></li>
+					<li class="nav-item"><a href="hotel.php" class="nav-link">Hotels</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-							Our tours
+							Our Trips
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="circuit1.html">Southern Lengend Circuit</a>
-							<a class="dropdown-item" href="circuit2.html">Northern Lengend Circuit</a>
+							<a class="dropdown-item" href="circuit1.php">Southern Lengend Trip</a>
+							<a class="dropdown-item" href="circuit2.php">Northern Lengend Trip</a>
 						</div>
 					</li>
-					<li class="nav-item cta"><a href="#" class="nav-link">Book now</a></li>
+					<li class="nav-item cta"><a href="contact.php" class="nav-link">Book now</a></li>
 
 				</ul>
 			</div>
@@ -95,7 +95,7 @@
 
 
 					<h1 class="mb-3 bread" style="color: #f9ab30;">Destinations</h1>
-					<p class="breadcrumbs"><span class="mr-2"><a href="index.html" style="color: #00BFFF;">Home<i
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.php" style="color: #00BFFF;">Home<i
 									class="ion-ios-arrow-forward"></i></a></span> <span
 							style="color: #00BFFF;">Destinations<i class="ion-ios-arrow-forward"></i></span></p>
 				</div>
@@ -119,11 +119,11 @@
 								<span class="dropup">
 									<button class="btn dropdown-toggle  droptop dropup-menu-right " type="button" id="dropdownMenu2"
 										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white;">
-										Tours
+										Trips
 									</button>
 									<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-										<button class="dropdown-item" type="button"><a href="circuit1.html">Southern Lengend Circuit</a></button>
-										<button class="dropdown-item" type="button"><a href="circuit2.html">Northern Lengend Circuit</a></button>
+										<button class="dropdown-item" type="button"><a href="circuit1.php">Southern Lengend Trip</a></button>
+										<button class="dropdown-item" type="button"><a href="circuit2.php">Northern Lengend Trip</a></button>
 									</div>
 								</span>
 							</div>

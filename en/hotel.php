@@ -59,20 +59,20 @@
 			
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="index.html#about" class="nav-link">Who we are?</a></li>
-					<li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-					<li class="nav-item active"><a href="hotel.html" class="nav-link">Hotels</a></li>
+					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="index.php#about" class="nav-link">About us</a></li>
+					<li class="nav-item"><a href="destination.php" class="nav-link">Destinations</a></li>
+					<li class="nav-item active"><a href="hotel.php" class="nav-link">Hotels</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-							Our tours
+							Our Trips
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="circuit1.html">Southern Lengend Circuit</a>
-							<a class="dropdown-item" href="circuit2.html">Northern Lengend Circuit</a>
+							<a class="dropdown-item" href="circuit1.php">Southern Lengend Trip</a>
+							<a class="dropdown-item" href="circuit2.php">Northern Lengend Trip</a>
 						</div>
 					</li>
-					<li class="nav-item cta"><a href="#" class="nav-link">Book now</a></li>
+					<li class="nav-item cta"><a href="contact.php" class="nav-link">Book now</a></li>
 
 				</ul>
 			</div>
@@ -94,7 +94,7 @@
 
 
 					<h1 class="mb-3 bread" style="color: #f9ab30;">Hotels</h1>
-					<p class="breadcrumbs"><span class="mr-2"><a href="index.html" style="color: #00BFFF;">Home<i
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.php" style="color: #00BFFF;">Home<i
 									class="ion-ios-arrow-forward"></i></a></span> <span style="color: #00BFFF;">Hotels<i
 								class="ion-ios-arrow-forward"></i></span></p>
 				</div>
@@ -378,7 +378,6 @@
 				stroke="#F96D00" />
 		</svg></div>
 
-	<include src="./footer.html"></include>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
@@ -395,7 +394,7 @@
 
 	<script src="js/main.js"></script>
 	<script src="js/language.js"></script>
-	<script src="js/random-image.js"></script>
+	<script src="../random-image.js"></script>
 
 </body>
 

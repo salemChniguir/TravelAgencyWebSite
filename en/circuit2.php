@@ -58,20 +58,20 @@
             </button>
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="index.html#about" class="nav-link">Who we are?</a></li>
-                    <li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-                    <li class="nav-item"><a href="hotel.html" class="nav-link">Hotels</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.php#about" class="nav-link">About us</a></li>
+                    <li class="nav-item"><a href="destination.php" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a href="hotel.php" class="nav-link">Hotels</a></li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Our tours
+                            Our Trips
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="circuit1.html">Southern Lengend Circuit</a>
-                            <a class="dropdown-item" href="circuit2.html">Northern Lengend Circuit</a>
+                            <a class="dropdown-item" href="circuit1.php">Southern Lengend Trip</a>
+                            <a class="dropdown-item" href="circuit2.php">Northern Lengend Trip</a>
                         </div>
                     </li>
-                    <li class="nav-item cta"><a href="#" class="nav-link">Book now</a></li>
+                    <li class="nav-item cta"><a href="contact.php" class="nav-link">Book now</a></li>
 
                 </ul>
             </div>
@@ -90,10 +90,10 @@
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate pb-5 text-center">
-                    <h1 class="mb-3 bread" style="color: #f9ab30;">Northern Lengend Circuit </h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html" style="color: #00BFFF;">Home<i
+                    <h1 class="mb-3 bread" style="color: #f9ab30;">Northern Lengend Trip </h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.php" style="color: #00BFFF;">Home<i
                                     class="ion-ios-arrow-forward"></i></a></span> <span style="color: #00BFFF;">Northern
-                            Lengend Circuit <i class="ion-ios-arrow-forward"></i></span></p>
+                            Lengend Trip <i class="ion-ios-arrow-forward"></i></span></p>
                 </div>
             </div>
         </div>

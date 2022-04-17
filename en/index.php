@@ -58,20 +58,20 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="#about" class="nav-link">Who we are?</a></li>
-					<li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-					<li class="nav-item"><a href="hotel.html" class="nav-link">Hotels</a></li>
+					<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link">About us</a></li>
+					<li class="nav-item"><a href="destination.php" class="nav-link">Destinations</a></li>
+					<li class="nav-item"><a href="hotel.php" class="nav-link">Hotels</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-							Our tours
+							Our Trips
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="circuit1.html">Southern Lengend Circuit</a>
-							<a class="dropdown-item" href="circuit2.html">Northern Lengend Circuit</a>
+							<a class="dropdown-item" href="circuit1.php">Southern Lengend Trip</a>
+							<a class="dropdown-item" href="circuit2.php">Northern Lengend Trip</a>
 						</div>
 					</li>
-					<li class="nav-item cta"><a href="#" class="nav-link">Book now</a></li>
+					<li class="nav-item cta"><a href="contact.php" class="nav-link">Book now</a></li>
 
 				</ul>
 			</div>
@@ -95,11 +95,11 @@
 					<div class="animated-title">
 						<div class="text-top">
 							<div>
-								<span style="font-weight: bolder;">The Journey Passes By The Legend</span>
+								<span style="font-weight: bolder;">Trips are legends</span>
 							</div>
 						</div>
 						<div class="text-bottom">
-							<div style="font-size: 3vmin;">Make your visit amazing with us!</div>
+							<div style="font-size: 3vmin;">Make your holiday amazing with us!</div>
 
 						</div>
 					</div>
@@ -116,10 +116,13 @@
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-md-6  heading-section pl-md-5 ftco-animate order-md-first">
-					<h2 class="mb-6" style="color: #f9ab30;" id="quisommes">Who are we?</h2>
-					<p>Legend Travel Story is a travel agency that was born around a dream to bring a bit of sunshine for Tunisian Tourism.
-					<p>
-						A motivated team has gathered around the same objective of making your travel experiences memorable moments, hence our slogan <span style="color: #f9ab30;">« Le Voyage Passe Par La Légende ».</span>
+					<h2 class="mb-6" style="color: #f9ab30;" id="quisommes">About us</h2>
+					<p>Legend travel Story is a travel agency that breathed air following a strong will to revitalize and enlighten Tunisian tourism.<p>
+					We, a highly enthusiastic group, believe trips are moments
+when one evades stress and troubles and quests peace of
+soul and body. In Legend Travel Story we work to make your
+journeys treasured memories. We ally efforts to make your
+travels meet our motto <span style="color: #f9ab30;">«A trip is a legend».</span>
 					</p>
 
 				</div>
@@ -230,20 +233,32 @@
 
 				<div class="col-md-12 tunisia heading-section pl-md-5 ftco-animate">
 
-					<h2 class="mb-12" style="color: #f9ab30;">Tunisie</h2>
-					<p>La Tunisie, une fente qui s’ouvre sur le seuil de la méditerranée.
-						A travers son histoire impressionnant ; Carthage est ses thermes,
-						Dougga et son site, le colisée d’El Jem, la somptuosité de la mosaïque
-						romano-byzantine du musée du Bardo, une immensité saharienne à Douz la
-						porte de désert, Les oasis, les cascades, les canyons de Tozeur, perle
-						de bled el Djérid Kairouan et la splendeur de ses mosquées, la fameuse
-						Ile de légende ; Avec Ulysse et ses soldats face aux sirènes, le lotus,
-						fruit mythique qui suscite l’oubli, les cactus et les agaves qui clôturent
-						les Menzels, un climat méditerranéen modéré ... Djerba...dessine vos rêves !!!
-						N’oublions jamais 1300 km de côtes Sousse Hammamet Sid Bou Saïd le bleu et la
-						blancheur éclatante de ses maisons, ses plages aux sables fins qui épousent l’horizon
-						à ciel bleu, la vie s’épanouie avec exubérance et l’âme de ses visiteurs s’enrichi
-						d’espoir.
+					<h2 class="mb-12" style="color: #f9ab30;">Tunisia</h2>
+					<p>Tunisia, an opening that puts you on the threshold of the
+Mediterranean and enthralls you with its innumerable
+wonderful monuments. Boasting of preciously distinct
+history to which testify many historical monuments like
+Carthage and its thermal baths, Dougga with its splendid
+site, El Jem with its time-resistant Colosseum, the
+sumptuous Roman-Byzantine mosaic of Bardo museum
+not forgetting the immense Sahara in Douz that craddles
+thick oases, shining waterfalls, breath-taking sand
+canyons in Tozeur often considered the pearl of “Bled el
+Djérid.” </p> <p> You cannot fail to visit Kairouan and enjoy the
+splendor of its mosques’ arabesque architecture and
+decoration. To add more flavors to your travelling menu,
+we never lose opportunity to guide you into the famous
+enchanting island of Jerba that flies you to the legend of 
+Ulysses and his soldiers facing the sirens, the lotus,
+mythical fruit that arouses oblivion, last but not least,
+the cacti and agaves that close the Menzels leaving a
+memorable spell of moderate Mediterranean climate ...
+Djerba will beautifully inspire your dreams! Never forget
+1300 kms of coasts that stretch from Sousse, along
+Hammamet eventually reaching Sidi Bou Saïd where
+shining white and blue houses, magnificent and soft
+sandy beaches embrace the blue horizon. Life blossoms
+exuberantly and visitors’ souls are revived with hope.
 					</p>
 				</div>
 
@@ -256,12 +271,11 @@
 						<div class="media-body ">
 							<h3 class="heading mb-3">Destinations</h3>
 							<p>
-								Des voyages organisés et un département de billetterie qui est soucieux de vous apporter
-								le conseil
-								en vous offrant les meilleures destinations avec nos partenaires bien choisies sur les
-								destinations phares
+							Organized trips and ticketing department that is careful to
+offer you advice on best destinations arranged with our well-
+chosen partners on flagship destinations.
 							</p>
-							<a href="destination.html">
+							<a href="destination.php">
 								<button type="button" class="btn btn-primary">détails<svg width="1em" height="1em"
 										viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
 										xmlns="http://www.w3.org/2000/svg">
@@ -281,13 +295,11 @@
 						<div class="media-body">
 							<h3 class="heading mb-3">Hotels</h3>
 							<p>
-								Une technologie de pointe à votre protée qui vous donne une panoplie d’hôtels sur la
-								Tunisie essentiellement
-								et sur d’autres destinations ou nous pensons que nous sommes capables de vous apporter
-								les meilleures
-								conditions de ventes
+							A state-of-the-art technology at your fingertips that displays
+to you a panoply of hotels in Tunisia and other destinations
+where we think we are able to bring you the best sales offe.
 							</p>
-							<a href="hotel.html">
+							<a href="hotel.php">
 								<button type="button" class="btn btn-primary">détails<svg width="1em" height="1em"
 										viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
 										xmlns="http://www.w3.org/2000/svg">
@@ -304,12 +316,13 @@
 					<div class="media block-6 services d-block">
 						<div class="icon"><span class="flaticon-route"></span></div>
 						<div class="media-body">
-							<h3 class="heading mb-3">Circuits</h3>
+							<h3 class="heading mb-3">Trips</h3>
 							<p>
-								Vivez avec nous des nouveaux produits et découvrez nos programmes qui vous sortent de
-								l’ordinaire et qui vous
-								feront vibrer au rythme de nos professionnels qui sont toujours à la recherche de
-								produits hors circuits classiques
+							Indulge yourself with our alternative products and discover
+our exceptional programs that will make you sway to the
+rhythm of our singled out itineraries innovatively-designed by
+professional staff that is always in search of distinct updated
+products that meet your expectations.
 							</p>
 							<a class="nav-link dropdown-toggle" href="#" id="navbardrop2" data-toggle="dropdown">
 								<button type="button" class="btn btn-primary">détails<svg width="1em" height="1em"
@@ -322,8 +335,8 @@
 									</svg></button>
 							</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="circuit1.html">Circuit de la légende sud</a>
-								<a class="dropdown-item" href="circuit2.html">Circuit de la légende nord</a>
+								<a class="dropdown-item" href="circuit1.php">Southern Lengend Trip</a>
+								<a class="dropdown-item" href="circuit2.php">Northern Lengend Trip</a>
 							</div>
 
 						</div>
