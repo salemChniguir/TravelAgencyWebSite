@@ -29,7 +29,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
 			<span>
 				<a href="#">
@@ -50,7 +50,6 @@
 
 
 
-
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
@@ -58,21 +57,21 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-
-					<li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
-					<li class="nav-item"><a href="index.html" class="nav-link">Qui sommes Nous?</a></li>
-					<li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-					<li class="nav-item active"><a href="hotel.html" class="nav-link">Hotels</a></li>
+					<li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
+					<li class="nav-item"><a href="index.php#about" class="nav-link">Qui sommes Nous?</a></li>
+					<li class="nav-item"><a href="destination.php" class="nav-link">Destinations</a></li>
+					<li class="nav-item active"><a href="hotel.php" class="nav-link">Hotels</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-							Nos Circuits
+						Nos Circuits
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="circuit1.html">Circuit de la légende sud</a>
-							<a class="dropdown-item" href="circuit2.html">Circuit de la légende nord</a>
+							<a class="dropdown-item" href="circuit1.php">Circuit de la légende sud</a>
+							<a class="dropdown-item" href="circuit2.php">Circuit de la légende nord</a>
 						</div>
 					</li>
-					<li class="nav-item cta"><a href="#" class="nav-link fr">Reservez Maintenant</a></li>
+					<li class="nav-item cta"><a href="contact.php" class="nav-link">Reserver</a></li>
+
 				</ul>
 			</div>
 			<span>
@@ -93,7 +92,7 @@
 
 
 					<h1 class="mb-3 bread" style="color: #f9ab30;">Hotels</h1>
-					<p class="breadcrumbs"><span class="mr-2"><a href="index.html" style="color: #00BFFF;">Accueil<i
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.php" style="color: #00BFFF;">Accueil<i
 									class="ion-ios-arrow-forward"></i></a></span> <span style="color: #00BFFF;">Hotels<i
 								class="ion-ios-arrow-forward"></i></span></p>
 				</div>
@@ -115,217 +114,223 @@
 			<div class="row">
 				<div class="col-md-4 ftco-animate">
 					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-1.jpg);"></a>
+						<a href="#" class="img" id="1-club-meninx"></a>
 						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">8 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+							
+							<h3>Hotel Club Meninx</h3>
 							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-mountains"></span>Near Mountain</li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								
+						
 							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap">
+						<a href="#" class="img" id="2-holiday-beach-4e"></a>
+						<div class="text p-4">
+							
+							<h3>Hotel Holiday beach</h3>
+							<ul>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
+							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 ftco-animate">
 					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-2.jpg);"></a>
+						<a href="#" class="img" id="3-joya-paradise-4e"></a>
 						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">10 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+							
+							<h3>Hotel Joya Paradise</h3>
 							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
 							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 ftco-animate">
 					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-3.jpg);"></a>
+						<a href="#" class="img" id="4-dar-djerba-zahra-3e"></a>
 						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">7 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+							
+							<h3>Dar Djerba Zahra</h3>
 							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
 							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap">
+						<a href="#" class="img" id="5-dar-djerba-narjess-4e"></a>
+						<div class="text p-4">
+							
+							<h3>Dar Djerba Narjess</h3>
+							<ul>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
+							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap">
+						<a href="#" class="img" id="6-ilbastor-mehari-djerba-4e"></a>
+						<div class="text p-4">
+							
+							<h3>Hotel Iberostar Mehari Djerba</h3>
+							<ul>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
+							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap">
+						<a href="#" class="img" id="7-sidi-mansour-4e"></a>
+						<div class="text p-4">
+							
+							<h3>Hotel Sidi Mansour</h3>
+							<ul>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
+							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-4 ftco-animate">
 					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-4.jpg);"></a>
+						<a href="#" class="img" id="8-sunconnect-4e"></a>
 						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">8 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+							
+							<h3>Hotel SUNCONNECT</h3>
 							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
 							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 ftco-animate">
-					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-5.jpg);"></a>
-						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">10 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
-							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 ftco-animate">
-					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-6.jpg);"></a>
-						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">7 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
-							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-4 ftco-animate">
 					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-7.jpg);"></a>
+						<a href="#" class="img" id="9-vincci-helios-4e"></a>
 						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">8 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+							
+							<h3>Hotel Vincci Helios Beach</h3>
 							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-mountains"></span>Near Mountain</li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
 							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 ftco-animate">
-					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-8.jpg);"></a>
-						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">10 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
-							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 ftco-animate">
-					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-9.jpg);"></a>
-						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">7 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
-							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-4 ftco-animate">
 					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-10.jpg);"></a>
+						<a href="#" class="img" id="10-welcome-meridiana-4e"></a>
 						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">8 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+							
+							<h3>Hotel Welcome Meridiana</h3>
 							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-mountains"></span>Near Mountain</li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
 							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 ftco-animate">
 					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-11.jpg);"></a>
+						<a href="#" class="img" id="11-yadis-4e"></a>
 						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">10 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+							
+							<h3>Hotel Yadis</h3>
 							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+								<li><span class="icon icon-star"></span></li>
+						
 							</ul>
+							<p class="location"><span class="ion-ios-map"></span> Djerba, Tunisie</p>
+							
+							
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 ftco-animate">
-					<div class="project-wrap">
-						<a href="#" class="img" style="background-image: url(images/destination-12.jpg);"></a>
-						<div class="text p-4">
-							<span class="price">$300/person</span>
-							<span class="days">7 Days Tour</span>
-							<h3><a href="#">Bali, Indonesia</a></h3>
-							<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
-							<ul>
-								<li><span class="flaticon-shower"></span>2</li>
-								<li><span class="flaticon-king-size"></span>3</li>
-								<li><span class="flaticon-mountains"></span>Near Mountain</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				
 			</div>
-			<div class="row mt-5">
-				<div class="col text-center">
-					<div class="block-27">
-						<ul>
-							<li><a href="#">&lt;</a></li>
-							<li class="active"><span>1</span></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#">&gt;</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 	</section>
+
+
+
 
 
 	<footer class="ftco-footer bg-bottom" style="background: #00BFFF;padding:3em 0;">
@@ -334,7 +339,7 @@
 
 			<div class="col-md d-flex justify-content-center">
 				<div class="ftco-footer-widget mb-4 text-center">
-					<h2 class="ftco-heading-2">Contactez nous!</h2>
+					<h2 class="ftco-heading-2">Contact us!</h2>
 					<div class="block-23 mb-3">
 						<ul class="nav navbar navbar-left d-flex d-inline-flex ">
 							<li><span class="icon icon-map-marker"></span><span class="text">11 Cité Sidi bechir, 4180,
@@ -374,7 +379,6 @@
 				stroke="#F96D00" />
 		</svg></div>
 
-
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
@@ -391,6 +395,7 @@
 
 	<script src="js/main.js"></script>
 	<script src="js/language.js"></script>
+	<script src="../random-image.js"></script>
 
 </body>
 

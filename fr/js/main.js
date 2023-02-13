@@ -197,7 +197,7 @@
 
 	}
 	counter();
-
+ 
 
 	var contentWayPoint = function() {
 		var i = 0;

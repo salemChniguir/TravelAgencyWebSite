@@ -58,20 +58,20 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link">Accueil</a></li>
+					<li class="nav-item active"><a href="index.php" class="nav-link">Accueil</a></li>
 					<li class="nav-item"><a href="#about" class="nav-link">Qui sommes Nous?</a></li>
-					<li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-					<li class="nav-item"><a href="hotel.html" class="nav-link">Hotels</a></li>
+					<li class="nav-item"><a href="destination.php" class="nav-link">Destinations</a></li>
+					<li class="nav-item"><a href="hotel.php" class="nav-link">Hotels</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-							Nos Circuits
+						Nos Circuits
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="circuit1.html">Circuit de la légende sud</a>
-							<a class="dropdown-item" href="circuit2.html">Circuit de la légende nord</a>
+							<a class="dropdown-item" href="circuit1.php">Circuit de la légende sud</a>
+							<a class="dropdown-item" href="circuit2.php">Circuit de la légende nord</a>
 						</div>
 					</li>
-					<li class="nav-item cta"><a href="#" class="nav-link">Reservez Maintenant</a></li>
+					<li class="nav-item cta"><a href="contact.php" class="nav-link">Reserver</a></li>
 
 				</ul>
 			</div>
@@ -124,7 +124,6 @@
 						même objectif celui de rende vos expériences de voyages des moments mémorables d’où notre
 						slogan <span style="color: #f9ab30;">« Le Voyage Passe Par La Légende ».</span>
 					</p>
-
 				</div>
 				<div class="col-md-6 ">
 					<div id="carousel-example-1" class="carousel slide carousel-fade z-depth-1-half"
@@ -264,7 +263,7 @@
 								en vous offrant les meilleures destinations avec nos partenaires bien choisies sur les
 								destinations phares
 							</p>
-							<a href="destination.html">
+							<a href="destination.php">
 								<button type="button" class="btn btn-primary">détails<svg width="1em" height="1em"
 										viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
 										xmlns="http://www.w3.org/2000/svg">
@@ -290,7 +289,7 @@
 								les meilleures
 								conditions de ventes
 							</p>
-							<a href="hotel.html">
+							<a href="hotel.php">
 								<button type="button" class="btn btn-primary">détails<svg width="1em" height="1em"
 										viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor"
 										xmlns="http://www.w3.org/2000/svg">
@@ -325,8 +324,8 @@
 									</svg></button>
 							</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="circuit1.html">Circuit de la légende sud</a>
-								<a class="dropdown-item" href="circuit2.html">Circuit de la légende nord</a>
+								<a class="dropdown-item" href="circuit1.php">Circuit de la légende sud</a>
+								<a class="dropdown-item" href="circuit2.php">Circuit de la légende nord</a>
 							</div>
 
 						</div>
@@ -351,7 +350,7 @@
 
 			<div class="col-md d-flex justify-content-center">
 				<div class="ftco-footer-widget mb-4 text-center">
-					<h2 class="ftco-heading-2">Contactez nous!</h2>
+					<h2 class="ftco-heading-2">Contact us!</h2>
 					<div class="block-23 mb-3">
 						<ul class="nav navbar navbar-left d-flex d-inline-flex ">
 							<li><span class="icon icon-map-marker"></span><span class="text">11 Cité Sidi bechir, 4180,
